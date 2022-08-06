@@ -1,0 +1,120 @@
+body {
+    background: #202124;
+    font-family: arial,sans-serif;
+}
+
+div {
+    display: flex;   
+    justify-content: center; 
+}
+
+#logo{
+    width: 272px;
+    height: 92px;
+}
+
+#icon_search{
+    width: 20px;
+    height: 20px;
+    text-align:center;
+    margin: 13px;
+}
+
+.search, .searchAdv {
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;    
+    width: 550px;
+    color: white;
+    display:flex;
+}
+
+.searchDiv {
+    border: 2px solid #dfe1e5;
+    border-radius: 15px;    
+}
+
+.marginDiv{
+    height: 30px;
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+    color: white;    
+}
+
+.linksDiv {
+    position:relative;    
+    justify-content: right;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+.button {
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #303134;
+}
+
+#images {    
+    position:relative;
+    color: #4487f6;
+    right: 50px;
+    top: 73px;
+}
+
+.smallLogo{
+    float:left;
+    justify-content:left;    
+    padding: 15px;   
+}
+
+.AdvS {
+    font-size: 130%;
+    justify-content: left;
+    color: #f28b82;
+    margin: 25px 0px 0px 40px;
+    font-family: arial,sans-serif;
+}
+
+.break {
+    height: 0px;
+    border-bottom: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+
+.margin{
+    width: 40%;
+}
+
+.searchAdv {
+    border: 1px solid white;
+    margin-left: 20px;
+    width: 450px;
+}
+
+.main{
+    justify-content:left;   
+}
+
+table{
+    margin-left: 30px;
+    color: white;
+}
+
+td{
+    padding-left: 10px;
+}
+
+#big{
+    height: 50px;
+}
+
+#small{
+    font-size: 70%;
+}

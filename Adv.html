@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> Advanced search </title>
+</head>
+
+<body>
+
+    <div class="smallLogo">
+        <img src="smallLogo.svg">
+    </div>
+
+    <div class="linksDiv">
+
+
+        <a class="link" href="index.html"> Google search </a>
+        <a class="link" href="img.html"> Google images </a>
+    </div>
+
+    <div class="AdvS">Advanced Search</div>
+
+    <div class="break"></div>
+
+    <form action="https://google.com/search" method="get">
+
+        <div class="main">
+            <table>
+                <tr>
+                    <td>
+                        <h3>
+                            Find pages with...
+                        </h3>
+                    </td>
+                    <td></td>
+                    <td>
+                        <h4>
+                            To do this in the search box.
+                        </h4>
+                    </td>
+                </tr>
+                <tr id="big"></tr>
+                <tr>
+                    <td>
+                        <h5>
+                            all these words:
+                        </h5>
+                    </td>
+                    <td>
+                        <input class="searchAdv" name="as_q" />
+                    </td>
+                    <td id="small">
+                        Type the important words: tri-colour rat terrier
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>
+                            this exact word or phrase:
+                        </h5>
+                    </td>
+                    <td>
+                        <input class="searchAdv" name="as_epq" />
+                    </td>
+                    <td id="small">
+                        Put exact words in quotes: "rat terrier"
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>
+                            any of these words:
+                        </h5>
+                    </td>
+                    <td>
+                        <input class="searchAdv" name="as_oq" />
+                    </td>
+                    <td id="small">
+                        Type OR between all the words you want: miniature OR standard
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>
+                            none of these words:
+                        </h5>
+                    </td>
+                    <td>
+                        <input class="searchAdv" name="as_eq" />
+                    </td>
+                    <td id="small">
+                        Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+
+                    </td>
+                </tr>
+                <tr>
+                    <td />
+                    <td />
+                    <td id="rightButton">
+                        <button class="button" type="submit">Search</button>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </form>
+</body>
+</HTML>
